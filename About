@@ -1,0 +1,15 @@
+Process Flow:
+Resume Extraction:
+
+Resumes in PDF, DOC, and XML formats are uploaded and processed using LangChain.
+The Gemini API extracts essential candidate details like Name, Email, Phone Number, and Skills.
+
+Data Storage in Elasticsearch:
+
+The extracted details are structured and pushed to Elasticsearch for efficient searching and retrieval.
+
+Viewing Data via Flask API:
+
+A Flask API is implemented to interact with Elasticsearch.
+Users can  search candidates, and view structured resume data through API endpoints.
+This system automates resume processing, improves search efficiency, and enables easy retrieval of relevant candidate information.
